@@ -5,6 +5,7 @@ import ButtonsPage from './pages/Buttons';
 import Spacing from './pages/Spacing';
 import FormLayouts from './pages/forms/Layouts';
 import Inputs from './pages/forms/Inputs';
+import BreadCrumbs from './pages/components/breadcrumbs';
 
 const routes = [
   {
@@ -35,6 +36,10 @@ const routes = [
   {
     path: '/formularios/layouts',
     component: FormLayouts,
+  },
+  {
+    path: '/componentes/breadcrumbs',
+    component: BreadCrumbs,
   },
 ];
 

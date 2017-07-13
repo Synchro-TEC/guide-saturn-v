@@ -5,6 +5,13 @@ class Colors extends Component {
     return (
       <div>
         <div className="sv-row sv-top-marged-75">
+
+          <ul className="sv-breadcrumb--thin">
+            <li><a href="#"><i className="fa fa-home fa-fw" /></a></li>
+            <li><a href="#">Rendimento de beneficiário no exterior</a></li>
+            <li><a href="#">Novo código de rendimentos de beneficiários no exterior.</a></li>
+          </ul>
+
           <h1>Cores</h1>
           <p className="sv-text-big sv-top-marged-25">
             Todas as cores podem ser usadas de 3 formas: Font Color, Background Color and Border Color.

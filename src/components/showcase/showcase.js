@@ -24,12 +24,17 @@ class ShowCase extends Component {
   _prepareToRender() {
     let tabs = [];
     let panels = [];
+    let styles = { height: this.props.height };
+
+    if (this.props.bgColorContent) {
+      styles.backgroundColor = this.props.bgColorContent;
+    }
 
     if (this.props.hasOwnProperty('guide')) {
       tabs.push(<Tab key={v4()}>Guia de Uso</Tab>);
       panels.push(
         <TabPanel key={v4()}>
-          <div className="bg-content" style={{ height: this.props.height }}>
+          <div className="bg-content" style={styles}>
             {this.props.guide()}
           </div>
         </TabPanel>
@@ -40,7 +45,7 @@ class ShowCase extends Component {
       tabs.push(<Tab key={v4()}>Exemplo</Tab>);
       panels.push(
         <TabPanel key={v4()}>
-          <div className="bg-content" style={{ height: this.props.height }}>
+          <div className="bg-content" style={styles}>
             {this.props.example()}
           </div>
         </TabPanel>
@@ -85,6 +90,7 @@ class ShowCase extends Component {
 ShowCase.displayName = 'ShowCase';
 
 ShowCase.PropTypes = {
+  bgColorContent: PropTypes.string,
   code: PropTypes.string,
   example: PropTypes.element,
   guide: PropTypes.element,

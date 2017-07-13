@@ -35,6 +35,18 @@ const SideBar = observer(
                 </ul>
               </Sanfona>
             </li>
+            <li>
+              <Sanfona
+                title="Componentes"
+                stateKey="componentsOpened"
+                toggle={() => sidebarStore.toggle('componentsOpened')}
+                opened={sidebarStore.sanfonas['componentsOpened']}
+              >
+                <ul>
+                  <li><Link to="/componentes/breadcrumbs">Breadcrumbs</Link></li>
+                </ul>
+              </Sanfona>
+            </li>
           </ul>
         </aside>
       );

@@ -31,7 +31,7 @@ Sanfona.defaultProps = {
   opened: false,
 };
 
-Sanfona.PropTypes = {
+Sanfona.propTypes = {
   title: PropTypes.string.isRequired,
   toggle: PropTypes.func.isRequired,
   opened: PropTypes.bool,

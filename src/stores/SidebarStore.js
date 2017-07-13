@@ -5,6 +5,7 @@ class SidebarStore {
     extendObservable(this, {
       sanfonas: {
         formOpened: false,
+        componentsOpened: false,
       },
       toggle: key => {
         this.sanfonas[key] = !this.sanfonas[key];

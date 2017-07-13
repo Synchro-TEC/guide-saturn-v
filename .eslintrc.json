@@ -17,21 +17,5 @@
     ],
     "rules": {
         "prettier/prettier": ["error", {"tabWidth": 2 ,"singleQuote": true, "printWidth": 120, "trailingComma": "es5"}]
-        // "indent": [
-        //     "error",
-        //     2
-        // ],
-        // "linebreak-style": [
-        //     "error",
-        //     "unix"
-        // ],
-        // "quotes": [
-        //     "error",
-        //     "single"
-        // ],
-        // "semi": [
-        //     "error",
-        //     "always"
-        // ]
     }
 }
