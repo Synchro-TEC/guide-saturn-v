@@ -44,6 +44,8 @@ const SideBar = observer(
               >
                 <ul>
                   <li><Link to="/componentes/breadcrumbs">Breadcrumbs</Link></li>
+                  <li><Link to="/componentes/loaders">Loaders</Link></li>
+                  <li><Link to="/componentes/tags">Tags</Link></li>
                 </ul>
               </Sanfona>
             </li>

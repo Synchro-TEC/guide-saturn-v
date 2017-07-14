@@ -6,6 +6,8 @@ import Spacing from './pages/Spacing';
 import FormLayouts from './pages/forms/Layouts';
 import Inputs from './pages/forms/Inputs';
 import BreadCrumbs from './pages/components/breadcrumbs';
+import Loaders from './pages/components/loaders';
+import Tags from './pages/components/tags';
 
 const routes = [
   {
@@ -40,6 +42,14 @@ const routes = [
   {
     path: '/componentes/breadcrumbs',
     component: BreadCrumbs,
+  },
+  {
+    path: '/componentes/loaders',
+    component: Loaders,
+  },
+  {
+    path: '/componentes/tags',
+    component: Tags,
   },
 ];
 
