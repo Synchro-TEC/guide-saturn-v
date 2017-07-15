@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ShowCase from '../../components/showcase/showcase';
-import loadersCode from '../../codeExamples/components/loaders';
+import tagsCodes from '../../codeExamples/components/tags';
 
 const tagDefault = () =>
   <div className="sv-tag default">
@@ -41,15 +41,15 @@ class Tags extends Component {
         </div>
 
         <h6>Tag default</h6>
-        <ShowCase example={tagDefault} code={loadersCode.loaderBar} height="70px" />
+        <ShowCase example={tagDefault} code={tagsCodes.tagDefault} height="90px" />
         <h6>Tag primary</h6>
-        <ShowCase example={tagPrimary} code={loadersCode.loaderBarLarge} height="70px" />
+        <ShowCase example={tagPrimary} code={tagsCodes.tagPrimary} height="90px" />
         <h6>Tag danger</h6>
-        <ShowCase example={tagDanger} code={loadersCode.spinLoader} height="70px" />
+        <ShowCase example={tagDanger} code={tagsCodes.tagDanger} height="90px" />
         <h6>Tag info</h6>
-        <ShowCase example={tagInfo} code={loadersCode.spinLoaderLarge} height="70px" />
+        <ShowCase example={tagInfo} code={tagsCodes.tagInfo} height="90px" />
         <h6>Tag warning</h6>
-        <ShowCase example={tagWarning} code={loadersCode.spinLoaderLarge} height="70px" />
+        <ShowCase example={tagWarning} code={tagsCodes.tagWarning} height="90px" />
 
       </div>
     );

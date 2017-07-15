@@ -8,6 +8,7 @@ import Inputs from './pages/forms/Inputs';
 import BreadCrumbs from './pages/components/breadcrumbs';
 import Loaders from './pages/components/loaders';
 import Tags from './pages/components/tags';
+import MessageBox from './pages/components/messageBox';
 
 const routes = [
   {
@@ -50,6 +51,10 @@ const routes = [
   {
     path: '/componentes/tags',
     component: Tags,
+  },
+  {
+    path: '/componentes/messagebox',
+    component: MessageBox,
   },
 ];
 
