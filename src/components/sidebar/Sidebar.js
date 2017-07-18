@@ -20,8 +20,21 @@ const SideBar = observer(
             <li><Link to="/">Home</Link></li>
             <li><Link to="/colors">Cores</Link></li>
             <li><Link to="/grid">Grid</Link></li>
-            <li><Link to="/buttons">Buttons</Link></li>
             <li><Link to="/espacamentos">Espaçamentos</Link></li>
+            <li>
+              <Sanfona
+                title="Botões"
+                stateKey="buttonsOpened"
+                toggle={() => sidebarStore.toggle('buttonsOpened')}
+                opened={sidebarStore.sanfonas['buttonsOpened']}
+              >
+                <ul>
+                  <li><Link to="/buttons/sobre">Padrão</Link></li>
+                  <li><Link to="/buttons/tamanhos">Tamanhos</Link></li>
+                  <li><Link to="/buttons/especiais">Especiais</Link></li>
+                </ul>
+              </Sanfona>
+            </li>
             <li>
               <Sanfona
                 title="Formulários"
@@ -50,6 +63,7 @@ const SideBar = observer(
                 </ul>
               </Sanfona>
             </li>
+
           </ul>
         </aside>
       );

@@ -73,7 +73,7 @@ class Inputs extends Component {
   render() {
     return (
       <div>
-        <div className="sv-row sv-top-marged-75">
+        <div className="sv-row sv-mt--80">
           <h1>Inputs</h1>
         </div>
         <h5 className="sv-mt--25">Estilos de inputs</h5>
@@ -82,8 +82,6 @@ class Inputs extends Component {
         <ShowCase example={inputInvalid} code={inputCodes.inputInvalid} height="100px" />
         <ShowCase example={inputValid} code={inputCodes.inputValid} height="100px" />
         <ShowCase example={inputDisabled} code={inputCodes.inputDisabled} height="100px" />
-
-        <h5 className="sv-mt--25">Formulário Compacto</h5>
 
       </div>
     );

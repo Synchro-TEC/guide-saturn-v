@@ -174,13 +174,13 @@ class FormLayouts extends Component {
   render() {
     return (
       <div>
-        <div className="sv-row sv-top-marged-75">
+        <div className="sv-row sv-mt--80">
           <h1>Layouts de Formulários</h1>
         </div>
 
         <h5 className="sv-mt--25">Formulário Padrão</h5>
 
-        <ShowCase guide={defaultFormGuide} example={defaultForm} code={FormCodes.example1} height="360px" />
+        <ShowCase example={defaultForm} code={FormCodes.example1} height="360px" />
 
         <h5 className="sv-mt--25">Formulário Compacto</h5>
 

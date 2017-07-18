@@ -156,21 +156,21 @@ const gridExampe5Show = () =>
 class Grid extends Component {
   render() {
     return (
-      <div className="sv-row sv-top-marged-75">
+      <div className="sv-row sv-mt--80">
 
         <h1>Grid</h1>
 
-        <p className="sv-text-big sv-top-marged-25">
+        <p className="sv-text-big sv-mt--25">
           Ridiculamente simples de usar, basta declarar <code>sv-row</code> e <code>sv-column</code> como filhos.
         </p>
 
         <ShowCase height="210px" example={gridExampe1Show} code={GridExamples.example1} />
 
-        <div className="sv-row sv-top-marged-15" />
+        <div className="sv-row sv-mt--15" />
 
         <h3>Grid com margens</h3>
 
-        <p className="sv-text-big sv-top-marged-15">
+        <p className="sv-text-big sv-mt--15">
           O grid também pode ser usado com margem entre as colunas, neste caso, use <code>sv-row--with-gutter</code>.
         </p>
 
@@ -178,12 +178,12 @@ class Grid extends Component {
 
         <h3>Grid com colunas de tamanhos de diferentes</h3>
 
-        <p className="sv-text-big sv-top-marged-15">
+        <p className="sv-text-big sv-mt--15">
           Nosso grid possui alguns helpers para ajudar em layouts com tamnhos diferentes das colunas. Os helpers
           disponíveis são para colunas com os seguintes tamanhos: 20, 25, 40, 60, 75 e 80 porcento.
         </p>
 
-        <p className="sv-text-big sv-top-marged-15">
+        <p className="sv-text-big sv-mt--15">
           Para usar um dos helpers, adicione na classe sv-column uma outra classe com _ + valor, ex:
           <code>sv-column _20</code> para criar um coluna com 20% do tamnho disponivel.
         </p>
@@ -192,14 +192,14 @@ class Grid extends Component {
 
         <h3>Grid com coluna de tamanho fixo</h3>
 
-        <p className="sv-text-big sv-top-marged-15">
+        <p className="sv-text-big sv-mt--15">
           Assim como nas colunas de tamanhos variados, estão disponíveis alguns helpers para ajudar em layouts com
           colunas
           de tamnho fixo. Os helpers disponíveis para colunas de tamnho fixo são: 100, 150, 200, 250 and 300 pixels.
           Lembrando que as outras colunas de uma row irão se ajustar automaticamente para preencher os espaços.
         </p>
 
-        <p className="sv-text-big sv-top-marged-15">
+        <p className="sv-text-big sv-mt--15">
           Para usar um dos helpers, adicione na classe sv-column uma outra classe com _ + valor + --fixed, ex:
           <code>sv-column _100--fixed</code> para criar um coluna com 100px fixo.
         </p>
@@ -207,7 +207,7 @@ class Grid extends Component {
         <ShowCase height="170px" example={gridExampe4Show} code={GridExamples.example4} />
 
         <h3>Dicas</h3>
-        <p className="sv-text-big sv-top-marged-15">
+        <p className="sv-text-big sv-mt--15">
           Se você precisa de uma <code>.sv-row</code> ou uma <code>.sv-row--with-gutter</code> sem a margem inferior,
           é só
           adicionar a classe <code>.sv-no-margins</code> na sua row.

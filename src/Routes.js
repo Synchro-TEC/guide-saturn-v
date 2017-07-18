@@ -1,7 +1,8 @@
 import Home from './pages/Home';
 import Colors from './pages/Colors';
 import Grid from './pages/Grid';
-import ButtonsPage from './pages/Buttons';
+import AboutButtonsPage from './pages/buttons/about';
+import SizeButtonsPage from './pages/buttons/sizes';
 import Spacing from './pages/Spacing';
 import FormLayouts from './pages/forms/Layouts';
 import Inputs from './pages/forms/Inputs';
@@ -25,8 +26,12 @@ const routes = [
     component: Grid,
   },
   {
-    path: '/buttons',
-    component: ButtonsPage,
+    path: '/buttons/sobre',
+    component: AboutButtonsPage,
+  },
+  {
+    path: '/buttons/tamanhos',
+    component: SizeButtonsPage,
   },
   {
     path: '/espacamentos',

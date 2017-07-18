@@ -4,9 +4,9 @@ class Spacing extends Component {
   render() {
     return (
       <div>
-        <div className="sv-row sv-top-marged-75">
+        <div className="sv-row sv-mt--80">
           <h1>Espaçamentos</h1>
-          <p className="sv-text-big sv-top-marged-25">
+          <p className="sv-text-big sv-mt--25">
             No Saturn-V, contamos com alguns helpers para ajudar na questão de espaçamentos, com uma sintaxe muito
             direta e fácil de usar. Veja nas tabelas a seguir as maneiras de usar essas classes de espaçamentos.
           </p>
@@ -78,7 +78,7 @@ class Spacing extends Component {
             </tbody>
           </table>
 
-          <p className="sv-text-big sv-top-marged-25">
+          <p className="sv-text-big sv-mt--25">
             Nos baseando nas tabelas, se quisermos um elemento com um padding de 15px no lado direito bastaria usar{' '}
             <code>sv-pr--15</code>. Outros exemplos: margem horizontal de 20px podemos usar{' '}
             <code>sv-mh--20</code>, margem de 5px em todos lados <code>sv-ma--5</code>, padding vertical de 30px{' '}

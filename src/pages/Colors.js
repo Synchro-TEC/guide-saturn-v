@@ -4,29 +4,23 @@ class Colors extends Component {
   render() {
     return (
       <div>
-        <div className="sv-row sv-top-marged-75">
-
-          <ul className="sv-breadcrumb--thin">
-            <li><a href="#"><i className="fa fa-home fa-fw" /></a></li>
-            <li><a href="#">Rendimento de beneficiário no exterior</a></li>
-            <li><a href="#">Novo código de rendimentos de beneficiários no exterior.</a></li>
-          </ul>
+        <div className="sv-row sv-mt--80">
 
           <h1>Cores</h1>
-          <p className="sv-text-big sv-top-marged-25">
+          <p className="sv-text-big sv-mt--25">
             Todas as cores podem ser usadas de 3 formas: Font Color, Background Color and Border Color.
             Para definir a cor da fonte, use o prefixo <code>sv-color</code> + <code>--color-name</code>,
             por examplo: <code>sv-color--blue-50</code>. Para usar como background color use o prefixo
             <code>sv-bg-color</code>
             e para a cor das bordas <code>sv-bd-color</code>.
           </p>
-          <p className="sv-text-big sv-top-marged-25">
+          <p className="sv-text-big sv-mt--25">
             Exemplo dos usos: <code>sv-color--blue-50</code> <code>sv-bg-color--blue-50</code>
             <code>sv-bd-color--blue-50</code>
           </p>
         </div>
         <div className="sv-row">
-          <div className="sv-column sv-padd-25">
+          <div className="sv-column sv-pa--25">
             <h6 className="sv-text-center">Blue</h6>
             <div className="sv-bg-color--blue-50 dm-color  sv-color--gray-800">
               --blue-50
@@ -59,7 +53,7 @@ class Colors extends Component {
               --blue-900<br />
             </div>
           </div>
-          <div className="sv-column sv-padd-25">
+          <div className="sv-column sv-pa--25">
             <h6 className="sv-text-center">Green</h6>
             <div className="sv-bg-color--green-50 dm-color  sv-color--gray-800">
               --green-50<br />
@@ -92,7 +86,7 @@ class Colors extends Component {
               --green-900<br />
             </div>
           </div>
-          <div className="sv-column sv-padd-25">
+          <div className="sv-column sv-pa--25">
             <h6 className="sv-text-center">Red</h6>
             <div className="sv-bg-color--red-50 dm-color  sv-color--gray-800">
               --red-50<br />
@@ -128,7 +122,7 @@ class Colors extends Component {
         </div>
 
         <div className="sv-row">
-          <div className="sv-column sv-padd-25">
+          <div className="sv-column sv-pa--25">
             <h6 className="sv-text-center">Yellow</h6>
             <div className="sv-bg-color--yellow-50 dm-color  sv-color--gray-800">
               --yellow-50<br />
@@ -161,7 +155,7 @@ class Colors extends Component {
               --yellow-900<br />
             </div>
           </div>
-          <div className="sv-column sv-padd-25">
+          <div className="sv-column sv-pa--25">
             <h6 className="sv-text-center">Orange</h6>
             <div className="sv-bg-color--orange-50 dm-color  sv-color--gray-800">
               --orange-50<br />
@@ -194,7 +188,7 @@ class Colors extends Component {
               --orange-900<br />
             </div>
           </div>
-          <div className="sv-column sv-padd-25">
+          <div className="sv-column sv-pa--25">
             <h6 className="sv-text-center">Steel</h6>
             <div className="sv-bg-color--steel-50 dm-color  sv-color--gray-800">
               --steel-50<br />
@@ -231,7 +225,7 @@ class Colors extends Component {
         </div>
 
         <div className="sv-row">
-          <div className="sv-column sv-padd-25">
+          <div className="sv-column sv-pa--25">
             <h6 className="sv-text-center">Gray</h6>
             <div className="sv-bg-color--gray-50 dm-color  sv-color--gray-800">
               --gray-50<br />
@@ -265,7 +259,7 @@ class Colors extends Component {
             </div>
           </div>
 
-          <div className="sv-column sv-padd-25">
+          <div className="sv-column sv-pa--25">
             <h6 className="sv-text-center">Blue Gray</h6>
             <div className="sv-bg-color--blue-gray-50 dm-color  sv-color--gray-800">
               --blue-gray-50 <br />
@@ -299,7 +293,7 @@ class Colors extends Component {
             </div>
           </div>
 
-          <div className="sv-column sv-padd-25">
+          <div className="sv-column sv-pa--25">
             <h6 className="sv-text-center">Outras</h6>
             <div className="sv-bg-color--blue-synchro dm-color sv-color--white-1">
               --blue-synchro<br />

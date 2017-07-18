@@ -36,7 +36,7 @@ class Tags extends Component {
   render() {
     return (
       <div>
-        <div className="sv-row sv-top-marged-75">
+        <div className="sv-row sv-mt--80">
           <h1>Tags</h1>
         </div>
 

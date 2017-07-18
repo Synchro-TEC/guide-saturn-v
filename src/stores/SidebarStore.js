@@ -6,6 +6,7 @@ class SidebarStore {
       sanfonas: {
         formOpened: false,
         componentsOpened: false,
+        buttonsOpened: false,
       },
       toggle: key => {
         this.sanfonas[key] = !this.sanfonas[key];
